@@ -112,10 +112,11 @@
     flex-direction: row;
     padding-bottom: 80px;
 
-    .card-desc {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+    
+}
+
+.cards .card-desc {
+    padding: 10px 0;
 }
 
 
@@ -127,7 +128,7 @@
 
 
 
-  footer {
+footer {
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
@@ -136,43 +137,46 @@
     margin: 0 auto; /* Center the container horizontally */
     padding: 0 80px; /* Add some padding for smaller screens */
     background-color: #FFFFFF;
-  }
+}
+
+.left-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-footer h3 {
+    font-size: 24;
+    font-weight:lighter
+}
+
+
+.right-footer{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.ft-links {
+align-items:start;
+display: flex;
+flex-direction: column;
+gap: 30px;
+height: 264px;
+
+
+}
+.ft-links .ft-link {
+    text-decoration: none; /* Remove underline */
+    color: grey; /* Set text color to black */
+    font-size: 16px; /* Adjust font size */
+
+}
+
+.ft-links p {
+    color: black; /* Set text color to black */
+    font-size: 16px; /* Adjust font size */
+}
+
   
-  .left-footer{
-    display: flex;
-    flex-direction: column;
-
-    h3 {
-        font-size: 24;
-        font-weight:lighter
-    }
-  }
-
-  
-  .right-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .ft-links {
-    align-items:start;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    height: 264px;
-
-    p {
-        color: black; /* Set text color to black */
-        font-size: 16px; /* Adjust font size */
-    }
-    
-    .ft-link {
-        text-decoration: none; /* Remove underline */
-        color: grey; /* Set text color to black */
-        font-size: 16px; /* Adjust font size */
-
-    }
-  }
 
 
