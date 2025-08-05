@@ -20,6 +20,11 @@
     background-color: #FFFFFF;
 }
 
+.med-header {
+    font: size 32px;
+    font-weight: lighter;
+}
+
 .navbar {
     display: flex; /* Flexbox for navbar links */
     max-height: 100px;
@@ -64,10 +69,11 @@
     padding-bottom: 100px;
 }
 
-.img-sailing {
+.img-wide {
     width: 100%; /* Make the image responsive */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove inline spacing */
+    border-radius: 8px;
 }
 
 .feature-prompt h2 {
@@ -82,7 +88,7 @@
     max-height: 541;
     display: flex;
     flex-direction: column;
-    
+
     img {
         height: auto;
         width: 100%;
@@ -118,6 +124,7 @@
     padding-left:  32px;
     padding-right: 32px;
 }
+
 
 
   footer {
@@ -166,5 +173,6 @@
         font-size: 16px; /* Adjust font size */
 
     }
-
   }
+
+
