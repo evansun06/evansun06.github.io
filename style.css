@@ -80,10 +80,15 @@
 .card {
     max-width: 405;
     max-height: 541;
-    height: 541;
-    width: 405;
     display: flex;
     flex-direction: column;
+    
+    img {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+    
     
 }
 
@@ -112,7 +117,7 @@
 .cards .card:nth-child(2) {
     padding-left:  32px;
     padding-right: 32px;
-  }
+}
 
 
   footer {
