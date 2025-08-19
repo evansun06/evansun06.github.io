@@ -1,0 +1,17 @@
+.medHeader {
+    font: size 32px;
+    font-weight: lighter;
+    padding: 0px 80px;
+}
+
+.imgWide {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing */
+    border-radius: 8px;
+}
+
+.imageContainer {
+    justify-content: center;
+    padding:40px 80px;
+}

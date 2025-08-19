@@ -1,0 +1,49 @@
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px;
+    height:auto;
+    max-height: 200px;
+    max-width: 100%; /* Set the maximum width to match your Figma design */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: #FFFFFF;
+}
+
+.leftFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftFooter h3 {
+    font-size: 16px;
+    font-weight:lighter
+}
+
+
+.rightFooter{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.ftLinks {
+align-items:start;
+display: flex;
+flex-direction: column;
+gap: 30px;
+height: 264px;
+
+
+}
+.ftLinks .ftLink {
+    text-decoration: none; /* Remove underline */
+    color: grey; /* Set text color to black */
+    font-size: 16px; /* Adjust font size */
+
+}
+
+.ftLinks p {
+    color: black; /* Set text color to black */
+    font-size: 16px; /* Adjust font size */
+}

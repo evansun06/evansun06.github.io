@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    max-height: 100px;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 80px; /* add 30px left and right padding */
+    box-sizing: border-box; /* ensure padding doesn't expand width */
+    margin:0px;
+}
+
+.navLeft {
+    margin-left:0;
+}
+
+.navRight {
+    display: flex;
+    line-height: 150%;
+    gap: 30px;
+    
+}
+
+.navLink {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set text color to black */
+    font-size: 20px; /* Adjust font size */
+}
