@@ -4,7 +4,7 @@
     font-size: 64px;
     line-height: 1.1; /* adjust for tighter spacing */
     margin: 0;        /* remove default h2 margin */
-    width:100%
+    width:100%;   
 }
 
 @keyframes fadeInUp {
@@ -19,7 +19,7 @@
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 0.8s forwards;
-    padding: 0px 80px;
+    padding: 0 80px;
     margin:0px;
 }
 
@@ -32,6 +32,5 @@
     animation-delay:0.8s;
     font: weight 100px;
     font-size:24px;
-    width: 100%;
     margin:0px;
 }

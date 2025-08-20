@@ -7,7 +7,7 @@ function Navbar() {
     <nav className={styles.navbar}>
       <Link to="/" className={`${styles.navLink} ${styles.navLeft}`}>Evan Sun</Link>
       <div className={styles.navRight}>
-        <a href="#Art" className={styles.navLink}>Art</a> {/* Anchor links are fine */}
+        <Link to="/art" className={styles.navLink}>Art</Link>
         <a href="#Tech" className={styles.navLink}>Tech</a>
         <Link to="/about" className={styles.navLink}>About</Link>
       </div>

@@ -8,6 +8,7 @@
     padding: 0 80px; /* add 30px left and right padding */
     box-sizing: border-box; /* ensure padding doesn't expand width */
     margin:0px;
+    background-color: transparent;
 }
 
 .navLeft {
