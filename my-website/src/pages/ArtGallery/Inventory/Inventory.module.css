@@ -1,0 +1,39 @@
+.inventoryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap:60px;
+    justify-content: left;
+    align-items: flex-start;
+    padding:80px 80px 80px 80px;
+    box-sizing: border-box;
+    width:100%;
+  } 
+
+  
+  
+  .artCard {
+    break-inside: avoid;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color:transparent;
+    transition: transform 0.2s ease;
+
+  }
+  
+  
+  .title {
+    margin-top: 5px;
+    font-size:16px;
+  }
+  
+  .artCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .artImage {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  

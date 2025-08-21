@@ -1,0 +1,89 @@
+[
+    {
+        "title":"Riz Ahmed",
+        "width":6,
+        "height":8,
+        "medium":"ink liner",
+        "image":"/art/RizAhmed.png",
+        "desc":"",
+        "month":"August",
+        "year":2025
+    },
+
+    {
+        "title":"Characature",
+        "width":8,
+        "height":8,
+        "medium":"ink liner",
+        "image":"/art/Characature.png",
+        "desc":"",
+        "month":"August",
+        "year":2024
+    },
+
+    {
+        "title":"Snowglobed",
+        "width":10,
+        "height":13,
+        "medium":"ink liner, alcohol markers",
+        "image":"/art/Snowglobed.png",
+        "desc":"",
+        "month":"June",
+        "year":2023
+    },
+
+    {
+        "title":"Subjective Polarization",
+        "width":11.5,
+        "height":10,
+        "medium":"ink liner, alcohol markers",
+        "image":"/art/SubjectivePolarization.png",
+        "desc":"",
+        "month":"March",
+        "year":2023
+    },
+
+    {
+        "title":"Firewatch",
+        "width":11.5,
+        "height":10,
+        "medium":"ink liner, alcohol markers",
+        "image":"/art/Firewatch.png",
+        "desc":"",
+        "month":"August",
+        "year":2024
+    },
+
+    {
+        "title":"Untwine Manjushage",
+        "width":20,
+        "height":18,
+        "medium":"ink liner, alcohol markers",
+        "image":"/art/UntwineManjushage.png",
+        "desc":"",
+        "month":"December",
+        "year":2023
+    },
+
+    {
+        "title":"BLUE",
+        "width":13,
+        "height":20,
+        "medium":"ink liner, alcohol markers",
+        "image":"/art/BLUE.png",
+        "desc":"",
+        "month":"October",
+        "year":2023
+    },
+
+    {
+        "title":"Valentine Vertigo",
+        "width":13,
+        "height":20,
+        "medium":"ink liner, alcohol markers",
+        "image":"/art/ValentineVertigo.png",
+        "desc":"",
+        "month":"November",
+        "year":2023
+    }
+]
