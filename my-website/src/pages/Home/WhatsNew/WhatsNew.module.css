@@ -1,7 +1,7 @@
 .medHeader {
     font: size 32px;
     font-weight: lighter;
-    padding: 0px 80px;
+    padding: 0px clamp(1rem, 5vw, 80px);
 }
 
 .imgWide {
@@ -13,5 +13,5 @@
 
 .imageContainer {
     justify-content: center;
-    padding:40px 80px;
+    padding:40px clamp(1rem, 5vw, 80px);
 }

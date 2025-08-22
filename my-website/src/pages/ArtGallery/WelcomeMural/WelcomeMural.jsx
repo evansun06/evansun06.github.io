@@ -8,8 +8,7 @@ function WelcomeMural() {
             <div className={styles.welcome}>Evan's Art Portfolio</div>
             <video autoPlay loop muted={true} playsInline>
                 <source src={sm} type="video/mp4"/>
-            </video>
-            
+            </video> 
         </div>
     );
 }

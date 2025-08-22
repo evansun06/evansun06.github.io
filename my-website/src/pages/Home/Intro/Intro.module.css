@@ -19,7 +19,7 @@
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 0.8s forwards;
-    padding: 0 80px;
+    padding: 0 clamp(1rem, 5vw, 80px);
     margin:0px;
 }
 
