@@ -6,7 +6,7 @@ function WelcomeMural() {
     return(
         <div className={styles.container}>
             <div className={styles.welcome}>Evan's Art Portfolio</div>
-            <video autoPlay loop muted playsinline>
+            <video autoplay muted playsinline loop>
                 <source src={sm} type="video/mp4"/>
             </video> 
         </div>

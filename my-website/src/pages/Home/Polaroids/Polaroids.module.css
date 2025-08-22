@@ -10,7 +10,7 @@
     max-height:600px;
     height: clamp(300px,30vw,600px);
     background-color: #FFFFFF;
-    padding: 0px clamp(1rem, 5vw, 80px);
+    padding-left: 0px clamp(1rem, 5vw, 80px);
     display:flex;
     flex-direction: row;
     display: flex;
