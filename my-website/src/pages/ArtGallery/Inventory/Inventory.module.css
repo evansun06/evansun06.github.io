@@ -1,23 +1,29 @@
 .inventoryContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap:60px;
-    justify-content: left;
-    align-items: flex-start;
-    padding:80px 80px 80px 80px;
+    column-gap: 1em;
+    width: 100%;
+    padding: 0px clamp(1rem, 5vw, 80px);
     box-sizing: border-box;
-    width:100%;
-  } 
-
-  
+  }
+ 
   
   .artCard {
     break-inside: avoid;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
+    padding:15px;
     box-sizing: border-box;
     background-color:transparent;
     transition: transform 0.2s ease;
+    width:100%;
+    height:auto;
 
+  }
+
+  .artImage {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
   }
   
   
@@ -30,10 +36,21 @@
     transform: scale(1.05);
   }
   
-  .artImage {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+  @media (min-width: 576px) {
+    .inventoryContainer {
+      column-count: 2;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .inventoryContainer {
+      column-count: 3;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .inventoryContainer {
+      column-count: 4;
+    }
   }
   

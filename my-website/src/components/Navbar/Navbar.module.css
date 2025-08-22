@@ -5,7 +5,7 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    padding: 0 80px; /* add 30px left and right padding */
+    padding: 0 clamp(1rem, 5vw, 80px); /* add 30px left and right padding */
     box-sizing: border-box; /* ensure padding doesn't expand width */
     margin:0px;
     background-color: transparent;

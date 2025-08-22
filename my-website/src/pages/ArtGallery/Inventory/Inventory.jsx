@@ -18,9 +18,7 @@ function Inventory() {
           key={index}
           className={styles.artCard}
           style={{
-            width: `${piece.width * scaleFactor}px`,
-            height: `${piece.height * scaleFactor}px`,
-            maxWidth:'80%'
+            width:'100%',
           }}
         >
           <img src={piece.image} alt={piece.title} className={styles.artImage} />

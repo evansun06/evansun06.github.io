@@ -5,12 +5,14 @@ import styles from './WelcomeMural.module.css'
 function WelcomeMural() {
     return(
         <div className={styles.container}>
+            <div className={styles.welcome}>Evan's Art Portfolio</div>
             <video autoPlay loop muted playsInline>
                 <source src={sm} type="video/mp4"/>
             </video>
-            <div className={styles.welcome}>Evan's Art Portfolio</div>
+            
         </div>
     );
 }
+
 
 export default WelcomeMural;
