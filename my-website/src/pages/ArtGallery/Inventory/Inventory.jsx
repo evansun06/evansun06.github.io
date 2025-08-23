@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react';
 import styles from './Inventory.module.css';
+import ArtModal from '../ArtModal/ArtModal';
 
 function Inventory() {
   const [artPieces, setArtPieces] = useState([]);
+  const [selectedArt, setSelectedArt] = useState(null);
+
   const scaleFactor = 25; // Adjust this to control visual sizing
 
   useEffect(() => {
@@ -20,11 +23,14 @@ function Inventory() {
           style={{
             width:'100%',
           }}
+          onClick={() => setSelectedArt(piece)}
         >
           <img src={piece.image} alt={piece.title} className={styles.artImage} />
           <p className={styles.title}>{piece.title}</p>
         </div>
       ))}
+      
+      <ArtModal art={selectedArt} onClose={() => setSelectedArt(null)}/>
     </div>
   );
 }
