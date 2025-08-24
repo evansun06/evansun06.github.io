@@ -10,16 +10,15 @@
     max-height:600px;
     height: clamp(300px,30vw,600px);
     background-color: #FFFFFF;
-    padding-left: 0px clamp(1rem, 5vw, 80px);
+    padding-left: clamp(1rem, 5vw, 80px);
     display:flex;
     flex-direction: row;
-    display: flex;
     justify-content: space-between; /* Pushes camera to the far right */
-    align-items: flex-start;
     width: 100%;
     box-sizing: border-box;
     align-items: center;
-    gap:clamp(5px,1vw,2vw)
+    gap:clamp(5px,1vw,2vw);
+    overflow-x: hidden;
 }
 
 .polContainer {
