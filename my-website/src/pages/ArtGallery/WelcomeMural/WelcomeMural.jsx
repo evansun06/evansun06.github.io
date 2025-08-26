@@ -1,4 +1,4 @@
-import sm from '../../../assets/smw.mp4'
+import sm from '../../../assets/smw.gif'
 import styles from './WelcomeMural.module.css'
 
 
@@ -6,9 +6,7 @@ function WelcomeMural() {
     return(
         <div className={styles.container}>
             <div className={styles.welcome}>Evan's Art Portfolio</div>
-            <video autoPlay muted playsInline loop>
-                <source src={sm} type="video/mp4"/>
-            </video> 
+            <img src={sm} alt="Parabolic motion of a bouncy ball"/>
         </div>
     );
 }
