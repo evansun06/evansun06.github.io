@@ -1,6 +1,7 @@
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import ArtGallery from "./pages/ArtGallery/ArtGallery";
+import Resume from "./pages/Resume/Resume";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/NavBar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -12,7 +13,8 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/art" element={<ArtGallery />} />     
+                <Route path="/art" element={<ArtGallery />} />   
+                <Route path="/resume" element={<Resume />} /> 
             </Routes>
             <Footer />
         </Router>

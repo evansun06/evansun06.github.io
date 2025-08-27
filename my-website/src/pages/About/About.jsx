@@ -17,8 +17,8 @@ function About() {
             </div>
             <div className={styles.about}>
                 <h3>Here's a little more about me!</h3>
-                <p> I'm currently a second year student at the University of British Columbia studying computer science. In my free time I love to draw, sail, play badminton.</p>
-
+                <p> I'm currently a second year student at the University of British Columbia studying computer science and enrolled in the COOP program. In my free time I love to draw, do all things sailing, and play badminton!.</p>
+                <p> I'm always looking to connect with new people! Feel free to connect with me on LinkedIn or shoot me an email.</p>
             </div>
     
         </div>

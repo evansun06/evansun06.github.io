@@ -88,6 +88,17 @@
     },
 
     {
+        "title":"Project Ostrich",
+        "width":8.5,
+        "height":11,
+        "medium":"ink liner",
+        "image":"/art/ProjectOstrich.jpg",
+        "desc":"",
+        "month":"Jan",
+        "year":2024
+    },
+
+    {
         "title":"Disc",
         "width":18,
         "height":18,
